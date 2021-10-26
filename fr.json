@@ -1,46 +1,46 @@
 ﻿{
   "General": {
     "File": {
-      "Input_AddButton.Text": "Add File",
-      "Input_ClearButton.Text": "Clear All",
-      "Input_NoFolderSelected": "No folder selected",
-      "Input_NoFolderSelectedNotice": "Please choose the output folder.",
-      "Input_OnFileDragOver": "Import file",
-      "Input_PlaceHolder.Text": "Choose files or Drop files here",
-      "Input_SelectFolderButton.Text": "Select folder"
+      "Input_AddButton.Text": "Ajouter un fichier",
+      "Input_ClearButton.Text": "Tout effacer",
+      "Input_NoFolderSelected": "Pas de dossier sélectionné",
+      "Input_NoFolderSelectedNotice": "Merci de choisir un dossier de sortie.",
+      "Input_OnFileDragOver": "Fichier importé",
+      "Input_PlaceHolder.Text": "Choisiser ou glisser un fichier ici",
+      "Input_SelectFolderButton.Text": "Selectionner un dossier"
     },
     "Form": {
-      "Form_DefaultButton.Text": "Restore to default",
-      "Form_RememberCheckBox.Content": "Remember the current options"
+      "Form_DefaultButton.Text": "Restaurer par défaut",
+      "Form_RememberCheckBox.Content": "Se souvenir des options actuelles"
     },
     "Nodes": {
-      "CollapseAllFlyout.Text": "Collapse All",
-      "SelecteAllFlyout.Text": "Selecte All",
-      "UnselecteAllFlyout.Text": "Unselecte All"
+      "CollapseAllFlyout.Text": "Réduire tout",
+      "SelecteAllFlyout.Text": "Sélectioner tout",
+      "UnselecteAllFlyout.Text": "Désélectionner tout"
     },
     "Notice": {
-      "Clear_LocalStorage": "Do you sure you want to clear all local storage?",
-      "DefaultButton_Cancel": "Cancel",
-      "DefaultButton_Confirm": "Confirm",
-      "DefaultProcessing": "Processing...",
-      "Empty": "Nothing here.",
-      "Loading_1": "Good things often need to wait.",
-      "Loading_2": "Usually a good preparation leads to better results.",
-      "ToastNotification_File": "file",
-      "ToastNotification_Files": "files",
-      "ToastNotification_Open": "Open in folder",
-      "ToastNotification_Save": "Saved",
-      "Viewer": "Preparing your model for the viewer...",
-      "IfcAnonymizer_1": "Information should always be under your control.",
-      "IfcConverter_1": "The same information leads to different new creations.",
-      "IfcRelocator_1": "You gonna dance for the move.",
-      "IfcRelocator_2": "It's coming.",
-      "IfcRelocator_3": "A beautiful new IFC has become your neighbor.",
-      "IfcOptimizer_1": "Arrive immediately.",
+      "Clear_LocalStorage": "Êtes-vous sûrs de vouloir effacer toutes les données stockées localement ?",
+      "DefaultButton_Cancel": "Annuler",
+      "DefaultButton_Confirm": "Confirmer",
+      "DefaultProcessing": "En cours...",
+      "Empty": "Rien ici.",
+      "Loading_1": "Les bonnes choses demandent souvent de la patience.",
+      "Loading_2": "Généralement une bonne préparation aboutie à un meilleur résultat.",
+      "ToastNotification_File": "fichier",
+      "ToastNotification_Files": "fichiers",
+      "ToastNotification_Open": "Ouvrir le dossier",
+      "ToastNotification_Save": "Sauver",
+      "Viewer": "Préparation de votre modèle pour le visualisateur...",
+      "IfcAnonymizer_1": "L'information doit toujours être sous votre contrôle.",
+      "IfcConverter_1": "La même information conduit à des créations nouvelles et différentes.",
+      "IfcRelocator_1": "Cela va te faire swinguer cette fois.",
+      "IfcRelocator_2": "Cela arrive.",
+      "IfcRelocator_3": "Un magnifique nouvel IFC est maintenant votre voisin.",
+      "IfcOptimizer_1": "Il arrive immédiatement.",
       "IfcOptimizer_2": "I believe... I can fly...",
-      "IfcOptimizer_3": "I know you know I know how to run wild.",
-      "IfcSplitter_1": "We all have our own purpose.",
-      "IfcSplitter_2": "Take only what you want."
+      "IfcOptimizer_3": "Je sais que tu sais que je sais comment se déchainer",
+      "IfcSplitter_1": "Nous avons tous nos propres objectifs.",
+      "IfcSplitter_2": "Prenez juste ce vous voulez."
     },
     "Process": {
       "Info_DuplicatedFile_Message": "Cannot use a file with the same name as a reference file",
