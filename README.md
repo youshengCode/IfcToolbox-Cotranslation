@@ -35,7 +35,7 @@ Here is a table of language code to language name, in alphabetical order. It sho
 | Language code  | Language name        | Native name | Status | Integration version |
 | -------------- | -------------------- | ----------- | ------ | ------------------- |
 | `en` (default) | English              | English     | ✅      | v.1.1.9             |
-| `de`           | German               | Deutsch     | ✅      |                     |
+| `de`           | German               | Deutsch     | ✅      | v.1.2.0             |
 | `pt`           | Portuguese           | Português   | 🚧      |                     |
 | `fr`           | French               | Français    | 🚧      |                     |
 | `zh`           | Chinese (Simplified) | 简体中文    | 🚧      |                     |
