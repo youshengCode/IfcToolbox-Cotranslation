@@ -42,7 +42,10 @@
       "ZheZHANG_Title": "BIM Coordinator, SYSTRA",
       "OdiloSchoch": "Odilo Schoch",
       "OdiloSchoch_Link": "https://www.linkedin.com/in/odilo-schoch-43512210/",
-      "OdiloSchoch_Title": "German version"
+      "OdiloSchoch_Title": "German version",
+      "FredericGrand": "Frédéric GRAND",
+      "FredericGrand_Link": "https://www.linkedin.com/in/frederic-grand/",
+      "FredericGrand_Title": "Technical Director, buildingSMART France - Mediaconstruct"
     },
     "Links": {
       "Anonymizer_ProductInfo_Help_Link": "https://youshengcode.github.io/IfcToolbox.Doc/#/Tools/IfcAnonymizer",
@@ -63,6 +66,7 @@
       "IfcOptimizer_HelpLink": "https://youshengcode.github.io/IfcToolbox.Doc/#/Tools/IfcOptimizer",
       "IfcRelocator_HelpLink": "https://youshengcode.github.io/IfcToolbox.Doc/#/Tools/IfcRelocator",
       "IfcSplitter_HelpLink": "https://youshengcode.github.io/IfcToolbox.Doc/#/Tools/IfcSplitter",
+      "IfcValidator_HelpLink": "https://youshengcode.github.io/IfcToolbox.Doc/#/Tools/IfcValidator",
       "Optimizer_FPRHelp_Link": "https://youshengcode.github.io/IfcToolbox.Doc/#/Tools/IfcOptimizer",
       "Optimizer_MergeHelp_Link": "https://youshengcode.github.io/IfcToolbox.Doc/#/Tools/IfcOptimizer",
       "Relocator_OptionsHelp_Link": "https://youshengcode.github.io/IfcToolbox.Doc/#/Tools/IfcRelocator",

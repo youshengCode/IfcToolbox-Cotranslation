@@ -11,10 +11,14 @@
     },
     "Form": {
       "Form_DefaultButton.Text": "Restore to default",
-      "Form_RememberCheckBox.Content": "Remember the current options"
+      "Form_RememberCheckBox.Content": "Remember the current options",
+      "ItemCard_ResetSelectionButton.Text": "Reset selection"
     },
     "Nodes": {
       "CollapseAllFlyout.Text": "Collapse All",
+      "DoubleList_Confirm.Text": "Confirm",
+      "DragDrop_Add": "Add",
+      "DragDrop_Remove": "Remove",
       "SelecteAllFlyout.Text": "Selecte All",
       "UnselecteAllFlyout.Text": "Unselecte All"
     },
@@ -40,7 +44,10 @@
       "IfcOptimizer_2": "I believe... I can fly...",
       "IfcOptimizer_3": "I know you know I know how to run wild.",
       "IfcSplitter_1": "We all have our own purpose.",
-      "IfcSplitter_2": "Take only what you want."
+      "IfcSplitter_2": "Take only what you want.",
+      "IfcValidator_1": "Check it, launch it !",
+      "IfcValidator_2": "The details make it perfect.",
+      "IfcValidator_3": "The quality of the information is in your control."
     },
     "Process": {
       "Info_DuplicatedFile_Message": "Cannot use a file with the same name as a reference file",
@@ -54,14 +61,14 @@
       "Info_OperationCancel_Title": "Interrupted",
       "Process_AllDone": "All Process Done - 100%",
       "Process_AnalyseCompleted": "analyse completed.",
-      "Process_AnalyseProcessing": "analysing...",
+      "Process_AnalyseProcessing": "in analysing...",
       "Process_Estimate": "Estimated to complete in",
       "Process_EstimateLessThan": "less than a second.",
       "Process_EstimateMinutes": "minutes",
       "Process_EstimateSecond": "seconds",
       "Process_Prepare": "Prepare information...",
       "Process_TaskCompleted": "process completed.",
-      "Process_TaskProcessing": "processing...",
+      "Process_TaskProcessing": "in processing...",
       "Progress_StopButton.Content": "Stop Operation"
     },
     "Table": {
@@ -76,11 +83,6 @@
     }
   },
   "IfcToolbox": {
-    "Menu": {
-      "About": "About",
-      "Settings": "Settings",
-      "Tools": "Tools"
-    },
     "About": {
       "Contributors.Text": "Contributors",
       "ContributorsGroup_CoTranslation": "Co-Translation",
@@ -108,12 +110,17 @@
       "PageTitle.Text": "About",
       "Version.Text": "Version"
     },
+    "Menu": {
+      "About": "About",
+      "Settings": "Settings",
+      "Tools": "Tools"
+    },
     "Settings": {
       "Help.Text": "Help ",
       "Help_Link.Content": "Help documents",
       "Languages.Text": "Languages",
       "Languages_PrimaryLanguageOverride.Header": "Use Custom Language",
-      "Languages_PrimaryLanguageOverride_Description.Text": "Use a custom language to override the system default language used in the application.",
+      "Languages_PrimaryLanguageOverride_Description.Text": "Use a custom language to override system default language used in application.",
       "Languages_PrimaryLanguageOverride_Notice.Text": "Restart is required to complete changes.",
       "PageTitle.Text": "Settings",
       "Storage.Text": "Storage",
@@ -136,6 +143,8 @@
       "IfcRelocator_Description": "Relocate the IFC world coordinate system and the project coordinate system. Align the origin of the two models.",
       "IfcSplitter": "IFC Splitter",
       "IfcSplitter_Description": "Split IFC files by type/container (site, building, level) or simply split selected objects in the hierarchy.",
+      "IfcValidator": "IFC Validator",
+      "IfcValidator_Description": "Validate the existence of the properties of classifications in the IFC file. Powered by buildingSMART Data Dictionary - bSDD OpenAPI.",
       "Toolbox_Story.Content": "Story...",
       "Tool_Plus.Content": "More..."
     },
@@ -279,7 +288,38 @@
       "Splitter_TreeHeader_Selected_IfcBuildingStorey": "Selected IfcBuildingStorey:",
       "Splitter_TreeHeader_Selected_IfcProduct": "Selected IfcProduct:",
       "Splitter_TreeHeader_Selected_IfcSite": "Selected IfcSite:",
-      "Splitter_TreeHeader_Selected_ObjectType": "Selected types:"
+      "Splitter_TreeHeader_Selected_ObjectType": "Selected types:",
+      "Validator_ClassificationSearch.PlaceholderText": "Search classification...",
+      "Validator_ClassificationSource_Description": "The result shows up to 200 items, use search to find a specific classification.",
+      "Validator_ClassificationSource_Header": "Available classifications",
+      "Validator_ClassificationSource_SelectionInfo": "Total found:",
+      "Validator_ClassificationTarget_Description": "Drag and drop items to this area to add, and drag out to remove.",
+      "Validator_ClassificationTarget_Header": "Selected classifications",
+      "Validator_ClassificationTarget_SelectionInfo": "Selected classes:",
+      "Validator_Info_NoClass_Message": "Please at least selected one classification for load property info.",
+      "Validator_Info_NoClass_Title": "No classification selected",
+      "Validator_Info_NoConfirm_Message": "Please confirm selected classifications",
+      "Validator_Info_NoConfirm_Title": "Not confirmed",
+      "Validator_Info_NoProps_Message": "Please at least selected one for check the property existence.",
+      "Validator_Info_NoProps_Title": "No property selected",
+      "Validator_LanguageSelection.PlaceholderText": "Filter by language",
+      "Validator_Language_AllLanguages": "All Languages",
+      "Validator_LaunchButton.Text": "Validate IFC",
+      "Validator_Part_Classification.Header": "Search classifications and properties for validation",
+      "Validator_Part_Domain.Header": "Choose a bSDD domain",
+      "Validator_Part_Import.Header": "File to validate",
+      "Validator_Part_Report.Header": "Reports",
+      "Validator_PropertyTree_EmptySelection": "No property selected",
+      "Validator_PropertyTree_Header": "Properties for validation",
+      "Validator_PropertyTree_Selected": "Selected properties: ",
+      "Validator_PropertyTree__Description": "Select the properties to check the existence of property in corresponding IFC entities.",
+      "Validator_Report_Description": "Existence percentage",
+      "Validator_Report_Notice.Text": "Click report for display more details",
+      "Validator_Report_Premier": "Total entity found",
+      "Validator_Report_Second": "Property existence checked ",
+      "Validator_ResetClassSelectionButton.Text": "Reset selected classifications",
+      "Validator_ResetPropertySelectionButton.Text": "Reset selected properties",
+      "Validator_ToolTitle.Text": "IFC Validator"
     },
     "UIForm": {
       "Anonymizer_ConfigForm": "IFC Anonymizer Configuration",
@@ -309,18 +349,18 @@
       "Anonymizer_UserPostalAddress": "Remove IfcPostalAddress",
       "Anonymizer_UserSection": "User information",
       "Anonymizer_UserTelecomAddress": "Remove IfcTelecomAddress",
+      "Common_Default": "Default",
       "Common_GeneralKeepLabel": "Keep old reference lable",
       "Common_GeneralKeepLabel_Description": "If ON will not reorder entity lable",
       "Common_GeneralSchemaSupport": "Schema support",
       "Common_GeneralSchemaSupport_Value": "IFC2x3, IFC4 Add1 Add2",
       "Common_GeneralSection": "General",
       "Common_NAN": "NAN",
-      "Common_Default": "Default",
       "Common_PointAxis": "Axis",
       "Common_PointAxis_Description": "Rotation of axis Z",
       "Common_PointPlacement": "Placement",
-      "Common_PointRefDirection_Description": "Rotation of axis X",
       "Common_PointRefDirection": "RefDirection",
+      "Common_PointRefDirection_Description": "Rotation of axis X",
       "Converter_AddAutoElevation": "Create elevation automatically",
       "Converter_AddAutoElevation_Detail": "Creates SVG elevation drawings automatically based on model extents.",
       "Converter_AddAutoSection": "Create section automatically",

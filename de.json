@@ -11,10 +11,14 @@
     },
     "Form": {
       "Form_DefaultButton.Text": "Zurück zu Werkeinstellungen",
-      "Form_RememberCheckBox.Content": "Die aktuelle Auswahl merken"
+      "Form_RememberCheckBox.Content": "Die aktuelle Auswahl merken",
+      "ItemCard_ResetSelectionButton.Text": "Auswahl zurücksetzen"
     },
     "Nodes": {
       "CollapseAllFlyout.Text": "Alles zusammenziehen",
+      "DoubleList_Confirm.Text": "Bestätigen",
+      "DragDrop_Add": "Hinzufügen",
+      "DragDrop_Remove": "Entfernen",
       "SelecteAllFlyout.Text": "Alles auswählen",
       "UnselecteAllFlyout.Text": "Alles abwählen"
     },
@@ -40,7 +44,10 @@
       "IfcOptimizer_2": "Ich glaube, ich kann fliegen...",
       "IfcOptimizer_3": "Ich weiß, du weißt, dass ich weiß, wie man wild läuft.",
       "IfcSplitter_1": "Wir alle haben unseren eigenen Zweck.",
-      "IfcSplitter_2": "Nimm nur was du willst."
+      "IfcSplitter_2": "Nimm nur was du willst.",
+      "IfcValidator_1": "Überprüfen Sie es, starten Sie es!",
+      "IfcValidator_2": "Die Details machen es perfekt.",
+      "IfcValidator_3": "Die Qualität der Informationen liegt in Ihrer Kontrolle."
     },
     "Process": {
       "Info_DuplicatedFile_Message": "Es kann keine Datei mit demselben Namen als Referenzdatei verwenden werden",
@@ -76,11 +83,6 @@
     }
   },
   "IfcToolbox": {
-    "Menu": {
-      "About": "Über",
-      "Settings": "Einstellungen",
-      "Tools": "Werkzeuge"
-    },
     "About": {
       "Contributors.Text": "Mitwirkende",
       "ContributorsGroup_CoTranslation": "Co-Übersetzung",
@@ -107,6 +109,11 @@
       "General_Support_WeChat": "WeChat Reward",
       "PageTitle.Text": "Über",
       "Version.Text": "Ausführung"
+    },
+    "Menu": {
+      "About": "Über",
+      "Settings": "Einstellungen",
+      "Tools": "Werkzeuge"
     },
     "Settings": {
       "Help.Text": "Hilfe",
@@ -136,6 +143,8 @@
       "IfcRelocator_Description": "Verschieben Sie das IFC-Weltkoordinatensystem und das Projektkoordinatensystem. Richten Sie den Ursprung der beiden Modelle aus.",
       "IfcSplitter": "IFC Aufteiler",
       "IfcSplitter_Description": "IFC-Dateien nach Typ/Container (Standort, Gebäude, Ebene) aufteilenoder einfach ausgewählte Objekte in der Hierarchie aufteilen.",
+      "IfcValidator": "IFC Validator",
+      "IfcValidator_Description": "Validieren Sie das Vorhandensein der Eigenschaften von Klassifikationen in der IFC-Datei. Unterstützt von buildingSMART Data Dictionary - bSDD OpenAPI.",
       "Toolbox_Story.Content": "Geschichte...",
       "Tool_Plus.Content": "Mehr..."
     },
@@ -279,7 +288,38 @@
       "Splitter_TreeHeader_Selected_IfcBuildingStorey": "Anzahl ausgewählter IfcBuildingStorey:",
       "Splitter_TreeHeader_Selected_IfcProduct": "Anzahl ausgewählter IfcProduct:",
       "Splitter_TreeHeader_Selected_IfcSite": "Anzahl ausgewählter IfcSite:",
-      "Splitter_TreeHeader_Selected_ObjectType": "Anzahl ausgewählter Typen:"
+      "Splitter_TreeHeader_Selected_ObjectType": "Anzahl ausgewählter Typen:",
+      "Validator_ClassificationSearch.PlaceholderText": "Search classification...",
+      "Validator_ClassificationSource_Description": "The result shows up to 200 items, use search to find a specific classification.",
+      "Validator_ClassificationSource_Header": "Available classifications",
+      "Validator_ClassificationSource_SelectionInfo": "Total found:",
+      "Validator_ClassificationTarget_Description": "Drag and drop items to this area to add, and drag out to remove.",
+      "Validator_ClassificationTarget_Header": "Selected classifications",
+      "Validator_ClassificationTarget_SelectionInfo": "Selected classes:",
+      "Validator_Info_NoClass_Message": "Please at least selected one classification for load property info.",
+      "Validator_Info_NoClass_Title": "No classification selected",
+      "Validator_Info_NoConfirm_Message": "Please confirm selected classifications",
+      "Validator_Info_NoConfirm_Title": "Not confirmed",
+      "Validator_Info_NoProps_Message": "Please at least selected one for check the property existence.",
+      "Validator_Info_NoProps_Title": "No property selected",
+      "Validator_LanguageSelection.PlaceholderText": "Filter by language",
+      "Validator_Language_AllLanguages": "All Languages",
+      "Validator_LaunchButton.Text": "Validate IFC",
+      "Validator_Part_Classification.Header": "Search classifications and properties for validation",
+      "Validator_Part_Domain.Header": "Choose a bSDD domain",
+      "Validator_Part_Import.Header": "File to validate",
+      "Validator_Part_Report.Header": "Reports",
+      "Validator_PropertyTree_EmptySelection": "No property selected",
+      "Validator_PropertyTree_Header": "Properties for validation",
+      "Validator_PropertyTree_Selected": "Selected properties: ",
+      "Validator_PropertyTree__Description": "Select the properties to check the existence of property in corresponding IFC entities.",
+      "Validator_Report_Description": "Existence percentage",
+      "Validator_Report_Notice.Text": "Click report for display more details",
+      "Validator_Report_Premier": "Total entity found",
+      "Validator_Report_Second": "Property existence checked ",
+      "Validator_ResetClassSelectionButton.Text": "Reset selected classifications",
+      "Validator_ResetPropertySelectionButton.Text": "Reset selected properties",
+      "Validator_ToolTitle.Text": "IFC Validator"
     },
     "UIForm": {
       "Anonymizer_ConfigForm": "Ifc anonymizer-konfiguration.",
@@ -309,18 +349,18 @@
       "Anonymizer_UserPostalAddress": "IfcPostalAddress entfernen",
       "Anonymizer_UserSection": "Nutzerinformation",
       "Anonymizer_UserTelecomAddress": "IfcTelecomAddress entfernen",
+      "Common_Default": "Standard",
       "Common_GeneralKeepLabel": "Halten Sie die alte Referenzleder",
       "Common_GeneralKeepLabel_Description": "Wenn ON die Entitätslable nicht neu ordnet",
       "Common_GeneralSchemaSupport": "Schema-Unterstützung",
       "Common_GeneralSchemaSupport_Value": "IFC2x3, IFC4 Add1 Add2",
       "Common_GeneralSection": "Allgemein",
       "Common_NAN": "NAN",
-      "Common_Default": "Standard",
       "Common_PointAxis": "Axis",
       "Common_PointAxis_Description": "Rotation der Achse Z",
       "Common_PointPlacement": "Placement",
-      "Common_PointRefDirection_Description": "Rotation der Achse X",
       "Common_PointRefDirection": "RefDirection",
+      "Common_PointRefDirection_Description": "Rotation der Achse X",
       "Converter_AddAutoElevation": "Erstellen Sie die Höhe automatisch",
       "Converter_AddAutoElevation_Detail": "Erstellt automatisch SVG-Elevations-Zeichnungen, die automatisch auf der Ausdehnungsmuster basieren.",
       "Converter_AddAutoSection": "Abschnitt automatisch erstellen",
