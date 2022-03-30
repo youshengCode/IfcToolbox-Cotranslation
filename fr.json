@@ -6,8 +6,8 @@
       "Input_NoFolderSelected": "Pas de dossier sélectionné",
       "Input_NoFolderSelectedNotice": "Merci de choisir un dossier de sortie.",
       "Input_OnFileDragOver": "Fichier importé",
-      "Input_PlaceHolder.Text": "Choisiser ou glisser un fichier ici",
-      "Input_SelectFolderButton.Text": "Selectionner un dossier"
+      "Input_PlaceHolder.Text": "Choisissez ou glissez un fichier ici",
+      "Input_SelectFolderButton.Text": "Selectionnez un dossier"
     },
     "Form": {
       "Form_DefaultButton.Text": "Restaurer par défaut",
