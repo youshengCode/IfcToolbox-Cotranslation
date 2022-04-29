@@ -19,11 +19,11 @@
       "DoubleList_Confirm.Text": "Confirm",
       "DragDrop_Add": "Add",
       "DragDrop_Remove": "Remove",
-      "SelecteAllFlyout.Text": "Selecte All",
-      "UnselecteAllFlyout.Text": "Unselecte All"
+      "SelecteAllFlyout.Text": "Select All",
+      "UnselecteAllFlyout.Text": "Unselect All"
     },
     "Notice": {
-      "Clear_LocalStorage": "Do you sure you want to clear all local storage?",
+      "Clear_LocalStorage": "Are you sure you want to clear all local storage?",
       "DefaultButton_Cancel": "Cancel",
       "DefaultButton_Confirm": "Confirm",
       "DefaultProcessing": "Processing...",
